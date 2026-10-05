@@ -6,7 +6,7 @@ A Python project that predicts 2025 MLB team wins from run differential, built w
 
 ## Key Finding
 
-A single-variable linear regression on **run differential** (runs scored minus runs allowed) predicts team wins with a **5-fold cross-validated R² of about 0.80**, far better than team OPS alone (R² of about 0.41). Adding OPS as a second predictor did not improve the model, which I explored further with a formal multicollinearity check (VIF).
+A single-variable linear regression on **run differential** (runs scored minus runs allowed) predicts team wins with a **5-fold cross-validated R² of about 0.80**. Run differential correlates with wins at 0.93, while team OPS has a weaker correlation of 0.64 (on a scale where 1.0 is a perfect match). Adding OPS as a second predictor did not improve the model, which I explored further with a formal multicollinearity check (VIF).
 
 | Metric | Result |
 |---|---|
