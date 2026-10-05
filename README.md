@@ -34,8 +34,7 @@ A single-variable linear regression on **run differential** (runs scored minus r
 ```
    pip install pandas numpy matplotlib seaborn scikit-learn statsmodels pybaseball
 ```
-3. Open `mlb_win_prediction.ipynb` in Jupyter and choose **Kernel → Restart Kernel and Run All Cells**.
-
+3. Open `MLB2025WinPredictionsFinal.ipynb` in Jupyter and choose **Kernel → Restart Kernel and Run All Cells**.
 Data is pulled live from the web, so results may differ slightly if the source tables change.
 
 ## Author
